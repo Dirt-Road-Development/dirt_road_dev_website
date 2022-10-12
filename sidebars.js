@@ -70,8 +70,8 @@ const sidebars = {
                 collapsed: true,
                 items: [
                     'platforms/skale-chain-ui/about',
-                    'platforms/skale-chain-ui/supported-chains',
-                    'platforms/skale-chain-ui/using-the-ui',
+                    // 'platforms/skale-chain-ui/supported-chains',
+                    // 'platforms/skale-chain-ui/using-the-ui',
                 ]
             }
         ]
