@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Tooling',
+    Svg: require('@site/static/img/undraw_hacker_mind_-6-y85.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Dirt Road Dev offers developers in the Web3 ecosystem the ability to quickly get up and running with a variety of tools desgined for rapid iteration and growth in the Web3 space. Amazing projects and platforms are being innovated and created everyday. Avoid  wasting time with tons of boilerplat and  use the Dirt Road Dev suite of tools. 
+      </>    
+    ),
+  },
+  {
+    title: 'Services',
+    Svg: require('@site/static/img/undraw_team_collaboration_re_ow29.svg').default,
+    description: (
+      <>
+        The ability to create a project, an application, a dApp, or any type of company is difficult. Even more so in the Web3 space where innovation moves faster and faster. Dirt Road Dev offers a core suite of services available to help you avoid the hassle and get to market. Core services including consulting, software development and graphic design.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Support',
+    Svg: require('@site/static/img/undraw_educator_re_ju47.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        In a competetive, yet collaborative space; finding support is not always easy. Dirt Road Dev offers development support and general troubleshooting help for the Web3 space through Discord. Ask questions and recieve help, Dirt Road Development can help you avoid the roadblocks and launch your product. Stop waiting, join the Discord for free today. 
       </>
     ),
   },

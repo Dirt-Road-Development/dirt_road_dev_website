@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dirt Road Development',
-  tagline: 'We handle the grit',
+  tagline: '',
   url: 'https://dirtroad.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -49,6 +49,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+            trackingID: 'G-DZBB2R5M0B',
+        }
       }),
     ],
   ],
@@ -63,13 +66,17 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-        //   {
-        //     type: 'doc',
-        //     docId: 'intro',
-        //     position: 'left',
-        //     label: 'Tutorial',
-        //   },
-        //   {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'right',
+            label: 'Docs',
+          },
+          {
+              to: '/blog',
+              label: 'Blog',
+              position: 'right'
+          },
           {
             href: 'https://github.com/Dirt-Road-Development',
             label: 'GitHub',
@@ -78,16 +85,17 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
-
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
+         {
+             title: "Docs",
+             items: [
+              {
+                label: 'Getting Started',
+                to: '/docs/intro',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
@@ -114,7 +122,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Dirt Road Development.`,
       },
       prism: {
-        theme: lightCodeTheme,
+      //   theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
