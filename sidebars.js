@@ -16,39 +16,39 @@ const sidebars = {
             collapsed: false,
             items: [
                 'topics/skale/about-the-network',
-                'topics/skale/sfuel',
-                'topics/skale/ethereum',
-                'topics/skale/multi-chain',
-                'topics/skale/hubs'
+                // 'topics/skale/sfuel',
+                // 'topics/skale/ethereum',
+                // 'topics/skale/multi-chain',
+                // 'topics/skale/hubs'
             ]
           }
         ],
     },
-    {   
-        type: 'category',
-        label: 'Developers',
-        collapsed: false,
-        items: [
-            'developers/overview',
-            'developers/tools',
-            {
-                type: 'category',
-                label: 'SKALE Network',
-                collapsed: true,
-                items: [
-                    'developers/skale/tools'
-                ]
-            },
-            {
-                type: 'category',
-                label: 'Shared',
-                collapsed: true,
-                items: [
-                    'developers/shared/tools'
-                ]
-            }
-        ]
-    },
+    // {   
+    //     type: 'category',
+    //     label: 'Developers',
+    //     collapsed: false,
+    //     items: [
+    //         'developers/overview',
+    //         'developers/tools',
+    //         {
+    //             type: 'category',
+    //             label: 'SKALE Network',
+    //             collapsed: true,
+    //             items: [
+    //                 'developers/skale/tools'
+    //             ]
+    //         },
+    //         {
+    //             type: 'category',
+    //             label: 'Shared',
+    //             collapsed: true,
+    //             items: [
+    //                 'developers/shared/tools'
+    //             ]
+    //         }
+    //     ]
+    // },
     {
         type: 'category',
         label: 'Platforms',
