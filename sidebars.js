@@ -16,7 +16,7 @@ const sidebars = {
             collapsed: false,
             items: [
                 'topics/skale/about-the-network',
-                // 'topics/skale/sfuel',
+                'topics/skale/sfuel',
                 // 'topics/skale/ethereum',
                 // 'topics/skale/multi-chain',
                 // 'topics/skale/hubs'
