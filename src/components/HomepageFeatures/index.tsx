@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_hacker_mind_-6-y85.svg').default,
     description: (
       <>
-        Dirt Road Dev offers developers in the Web3 ecosystem the ability to quickly get up and running with a variety of tools desgined for rapid iteration and growth in the Web3 space. Amazing projects and platforms are being innovated and created everyday. Avoid  wasting time with tons of boilerplat and  use the Dirt Road Dev suite of tools. 
+        Dirt Road Dev offers developers in the Web3 ecosystem the ability to quickly get up and running with a variety of tools desgined for rapid iteration and growth in the Web3 space. 
       </>    
     ),
   },
@@ -23,16 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_team_collaboration_re_ow29.svg').default,
     description: (
       <>
-        The ability to create a project, an application, a dApp, or any type of company is difficult. Even more so in the Web3 space where innovation moves faster and faster. Dirt Road Dev offers a core suite of services available to help you avoid the hassle and get to market. Core services including consulting, software development and graphic design.
+       Whether you need a Proof-of-Concept (PoC) built, a logo designed, or Web3 education for your engineers; Dirt Road Development offers all the core services a Web3 startup needs. 
       </>
     ),
   },
   {
-    title: 'Support',
+    title: 'Education',
     Svg: require('@site/static/img/undraw_educator_re_ju47.svg').default,
     description: (
       <>
-        In a competetive, yet collaborative space; finding support is not always easy. Dirt Road Dev offers development support and general troubleshooting help for the Web3 space through Discord. Ask questions and recieve help, Dirt Road Development can help you avoid the roadblocks and launch your product. Stop waiting, join the Discord for free today. 
+      The blockchain/Web3 space changes fast. Additionally, the amount of education available for this field is limited to the basic. DRD is looking to provide start to finish education in the space.
       </>
     ),
   },
