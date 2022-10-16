@@ -21,7 +21,15 @@ const sidebars = {
                 // 'topics/skale/multi-chain',
                 // 'topics/skale/hubs'
             ]
-          }
+          },
+          // {
+          //   type: 'category',
+          //   label: 'Technology',
+          //   collapsed: false,
+          //   items: [
+          //       'topics/technology/containerization'
+          //   ]
+          // }
         ],
     },
     // {   
@@ -76,6 +84,8 @@ const sidebars = {
             }
         ]
     },
+    'appendix/index',
+    'attribution/index'
   ],
 };
 
