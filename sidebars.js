@@ -22,41 +22,8 @@ const sidebars = {
                 // 'topics/skale/hubs'
             ]
           },
-          // {
-          //   type: 'category',
-          //   label: 'Technology',
-          //   collapsed: false,
-          //   items: [
-          //       'topics/technology/containerization'
-          //   ]
-          // }
         ],
     },
-    // {   
-    //     type: 'category',
-    //     label: 'Developers',
-    //     collapsed: false,
-    //     items: [
-    //         'developers/overview',
-    //         'developers/tools',
-    //         {
-    //             type: 'category',
-    //             label: 'SKALE Network',
-    //             collapsed: true,
-    //             items: [
-    //                 'developers/skale/tools'
-    //             ]
-    //         },
-    //         {
-    //             type: 'category',
-    //             label: 'Shared',
-    //             collapsed: true,
-    //             items: [
-    //                 'developers/shared/tools'
-    //             ]
-    //         }
-    //     ]
-    // },
     {
         type: 'category',
         label: 'Platforms',
